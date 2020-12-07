@@ -22,7 +22,7 @@ import (
 )
 
 //
-// Solution function checks the number of 0's in the binary value of N and returns the longest number of 0's present for N
+// binaryGapChecker function checks the number of 0's in the binary value of N and returns the longest number of 0's present for N
 //
 // INPUT  : input int;
 // RETURN : longestGap int

@@ -11,7 +11,7 @@
 # Functions : binaryGapChecker(int) int ---> for returning the longest gap in a binary formatted integer (longest number of 0's)
 #             main() ---> gets user input and calls binary gap checker func for result
 #
-# Results   : https:#app.codility.com/demo/results/trainingCR3RTR-SA4/
+# Results   : https://app.codility.com/demo/results/trainingMSPSSH-C5S/
 #
 
 

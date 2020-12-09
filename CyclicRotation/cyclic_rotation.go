@@ -34,7 +34,6 @@ func cyclicRotation(inputArr []int, rotation int) []int {
 		// eg: if origIndex = 0, rotation = 3
 		//        rotatedIndex = 0 + 3 = 3
 		rotatedIndex := origIndex + rotation
-		fmt.Println(rotatedIndex)
 
 		// if next index is greater than the length of array, reduce the value to accomodate in array length
 		if rotatedIndex >= len(inputArr) {
@@ -70,13 +69,11 @@ func cyclicRotation(inputArr []int, rotation int) []int {
 // main function for performing cyclic rotation
 func main() {
 
-	var (
-		rotation = 4
-		inputArr = []int{1, 2}
-	)
-
 	// call cyclic rotation func for rotating the input array by rotation times
-	result := cyclicRotation(inputArr, rotation)
+	result := cyclicRotation(
+		[]int{},
+		0,
+	)
 	fmt.Println(result)
 
 }

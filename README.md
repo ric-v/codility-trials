@@ -4,3 +4,4 @@ solutions and trials done by me for [codility test](https://app.codility.com/pro
 
 - [Binary Gap Checker](https://github.com/ric-v/codility-trials/tree/main/BinaryGap/go)
 - [Cyclic Rotation](https://github.com/ric-v/codility-trials/tree/main/CyclicRotation)
+- [Odd Occurrences In Array](https://github.com/ric-v/codility-trials/tree/main/OddOccurrencesInArray)

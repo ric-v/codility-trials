@@ -17,7 +17,7 @@
 // Result    : https://app.codility.com/demo/results/trainingZQ5HYK-NRH/
 //
 
-package main
+package oddoccurrencesinarray
 
 //
 // oddOccurrencesInArray function finds the value with odd occurrence in an input array.
@@ -25,7 +25,7 @@ package main
 // INPUT  : inputArr []int;
 // RETURN : result int
 //
-func oddOccurrencesInArray(inputArr []int) int {
+func OddOccurrencesInArray(inputArr []int) int {
 
 	const limit = 2
 
@@ -52,12 +52,4 @@ func oddOccurrencesInArray(inputArr []int) int {
 	}
 
 	return result
-}
-
-// main func for getting user input and calling odd occurnces in array
-func main() {
-
-	// call odd occurences array
-	oddOccurrencesInArray([]int{})
-
 }

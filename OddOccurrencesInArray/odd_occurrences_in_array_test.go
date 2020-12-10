@@ -1,4 +1,4 @@
-package main
+package oddoccurrencesinarray
 
 import (
 	"testing"
@@ -17,7 +17,7 @@ func TestCyclicRotation(t *testing.T) {
 
 	for _, entry := range entries {
 
-		result := oddOccurrencesInArray(entry.inputArr)
+		result := OddOccurrencesInArray(entry.inputArr)
 
 		// check if result and expected result are same
 		if result != entry.result {

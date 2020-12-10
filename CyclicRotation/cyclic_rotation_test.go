@@ -1,4 +1,4 @@
-package main
+package cyclicrotation
 
 import (
 	"reflect"
@@ -19,7 +19,7 @@ func TestCyclicRotation(t *testing.T) {
 
 	for _, entry := range entries {
 
-		result := cyclicRotation(entry.inputArr, entry.rotation)
+		result := CyclicRotation(entry.inputArr, entry.rotation)
 
 		// check if result and expected result are same
 		if !reflect.DeepEqual(entry.result, result) {

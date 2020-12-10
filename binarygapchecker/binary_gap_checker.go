@@ -14,10 +14,9 @@
 // Results   : https://app.codility.com/demo/results/trainingCR3RTR-SA4/
 //
 
-package main
+package binarygapchecker
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -27,7 +26,7 @@ import (
 // INPUT  : input int;
 // RETURN : longestGap int
 //
-func binaryGapChecker(input int) int {
+func BinaryGapChecker(input int) int {
 
 	// longestGap is the return value expected for N after ops
 	var longestGap, localMax int
@@ -61,19 +60,4 @@ func binaryGapChecker(input int) int {
 
 	// return the longest gap value for N
 	return longestGap
-}
-
-// Main function for binary gap checker
-func main() {
-
-	var input int
-
-	// get the input number from user for ops
-	fmt.Printf("Insert value for number N : ")
-	fmt.Scanf("%d\n", &input)
-
-	// get the longest gap for an input integer
-	result := binaryGapChecker(input)
-	fmt.Printf("Longest gap for %d (%s) is %d\n", input, strconv.FormatInt(int64(input), 2), result)
-
 }

@@ -1,4 +1,4 @@
-package main
+package binarygapchecker
 
 import (
 	"testing"
@@ -18,7 +18,7 @@ func TestCyclicRotation(t *testing.T) {
 
 	for _, entry := range entries {
 
-		result := binaryGapChecker(entry.input)
+		result := BinaryGapChecker(entry.input)
 
 		// check if result and expected result are same
 		if entry.result != result {

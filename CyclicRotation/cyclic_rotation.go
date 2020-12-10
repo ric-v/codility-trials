@@ -13,9 +13,7 @@
 // Result    : https://app.codility.com/demo/results/trainingQPF4JW-SH5/
 //
 
-package main
-
-import "fmt"
+package cyclicrotation
 
 //
 // cyclicRotation function rotates an input array to its right by n positions
@@ -23,7 +21,7 @@ import "fmt"
 // INPUT  : inputArray int;
 // RETURN : rotatedArray int
 //
-func cyclicRotation(inputArr []int, rotation int) []int {
+func CyclicRotation(inputArr []int, rotation int) []int {
 
 	var updatedArr = make([]int, len(inputArr))
 
@@ -64,16 +62,4 @@ func cyclicRotation(inputArr []int, rotation int) []int {
 
 	// return the updated array
 	return updatedArr
-}
-
-// main function for performing cyclic rotation
-func main() {
-
-	// call cyclic rotation func for rotating the input array by rotation times
-	result := cyclicRotation(
-		[]int{},
-		0,
-	)
-	fmt.Println(result)
-
 }

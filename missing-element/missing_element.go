@@ -27,6 +27,7 @@ import "sort"
 //
 func MissingElement(input []int) int {
 
+	// set missing element as 1st element in the list, since list starts at 1, set it as 1
 	var missingElem = 1
 
 	// sort the slice in ascending order
@@ -34,12 +35,17 @@ func MissingElement(input []int) int {
 
 	// iterate on each input element
 	for _, element := range input {
+
+		// if element does not match expected value next iter, break from loop
 		if element != missingElem {
 			break
 		} else {
+
+			// update missing element by to check next entry in array
 			missingElem++
 		}
 	}
 
+	// return the missing element
 	return missingElem
 }

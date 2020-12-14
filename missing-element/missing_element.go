@@ -13,7 +13,7 @@
 //
 // Functions : MissingElement ---> returns the missing element from an array with N+1 concurrent integers with 1 among them missing
 //
-// Result    : https://app.codility.com/demo/results/trainingSREVS9-8CU/
+// Result    : https://app.codility.com/demo/results/trainingVABJKK-PAY/
 //
 package missingelement
 

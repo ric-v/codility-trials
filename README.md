@@ -7,3 +7,4 @@ solutions and trials done by me for [codility test](https://app.codility.com/pro
 - [Odd Occurrences In Array](https://github.com/ric-v/codility-trials/tree/main/odd-occurrences-in-array)
 - [Frog Jump](https://github.com/ric-v/codility-trials/tree/main/frog-jump)
 - [Missing Element](https://github.com/ric-v/codility-trials/tree/main/missing-element)
+- [Frog River One](https://github.com/ric-v/codility-trials/tree/main/frog-river-one)

@@ -12,3 +12,4 @@ solutions and trials done by me for [codility test](https://app.codility.com/pro
 - [Missing Integer](https://github.com/ric-v/codility-trials/tree/main/missing-integer)
 - [Permutation Checker](https://github.com/ric-v/codility-trials/tree/main/permutation-checker)
 - [Count Divisibles](https://github.com/ric-v/codility-trials/tree/main/count-divisibles)
+- [Passing Cars](https://github.com/ric-v/codility-trials/tree/main/passing-cars)

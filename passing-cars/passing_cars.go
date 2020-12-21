@@ -18,8 +18,6 @@
 //
 // Functions : PassingCars ---> returns number of passing car pairs from input array
 //
-// Results   : https://app.codility.com/demo/results/trainingX2ZYSZ-ERZ/
-//
 package passingcars
 
 import "fmt"
@@ -33,7 +31,7 @@ import "fmt"
 func PassingCars(input []int) int {
 
 	var numOfPairs int
-	var ref = 0
+	var ref = input[0]
 
 	for index := range input {
 
